@@ -1,6 +1,6 @@
 # Object Detection Model Training and Deployment
 
-This project provides a step-by-step guide for developing and deploying an object detection model using a pre-trained Mask R-CNN finetuned on the Penn-Fudan Database for Pedestrian Detection and Segmentation. The notebook contains code for model training, evaluation, and deployment, utilizing a simple Gradio app interface.
+This project provides a step-by-step guide for developing and deploying an object detection model using a pre-trained Faster R-CNN finetuned on the Penn-Fudan Database for Pedestrian Detection and Segmentation. The notebook contains code for model training, evaluation, and deployment, utilizing a simple Gradio app interface.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -21,7 +21,7 @@ The project is structured into two main sections:
 The key sections in the notebook are:
 - **Data Loading**: Loads and displays sample images for dataset verification.
 - **Custom Dataset Definition**: Defines a dataset class for PyTorch.
-- **Model Initialization**: Sets up Mask R-CNN with a pre-trained ResNet-50 backbone.
+- **Model Initialization**: Sets up Faster R-CNN with a pre-trained ResNet-50 backbone.
 - **Training Loop**: Trains the model on the dataset with specified hyperparameters.
 - **Evaluation**: Visualizes model predictions on sample images.
 - **Saving Model**: Saves the trained model for use in deployment.
@@ -33,6 +33,7 @@ The key sections in the notebook are:
 - TorchVision (0.19.1)
 - Gradio (5.0.2)
 - matplotlib
+- pycocotools
 
 ## Setup
 
