@@ -1,7 +1,7 @@
 
 # Pedestrian Detection Application
 
-This project demonstrates developing and deploying a pedestrian detection model using a pre-trained Faster R-CNN with a ResNet-50-FPN backbone, achieving an AP of 0.820 and an AR of 0.852 at IoU=0.50:0.95. The application provides an interactive Gradio interface for object detection on input images.
+This project demonstrates developing a pedestrian detection app using a fine-tuned Faster R-CNN model on the Penn-Fudan dataset, achieving an AP of 0.820 and an AR of 0.852 at IoU=0.50:0.95. The application provides an interactive Gradio interface for object detection on input images.
 
 ## Table of Contents
 - [Structure](#structure)
